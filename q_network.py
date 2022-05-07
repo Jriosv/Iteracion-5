@@ -6,7 +6,7 @@ from keras.layers import Conv2D, Dense, MaxPooling3D
 from keras.layers import add, BatchNormalization, Flatten
 from keras.losses import CategoricalCrossentropy, MeanSquaredError
 import tensorflow as tf
-from Iteracion6.board_conversion import *
+from Iteracion5.board_conversion import *
 
 
 class Q_model():
